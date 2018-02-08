@@ -1,0 +1,42 @@
+body {
+  background-color: black; 
+}
+
+
+h1 {
+  color: white; text-align: center; font-family: 'Rubik', sans-serif; font-size: 100px; margin-top: 200px
+}
+
+.button {
+	background-color: white;
+    border: none;
+    color: white;
+    padding: 20px 30px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* unvisited link */
+a:link {
+    color: black; text-decoration: none; font-family: sans-serif; font-style: oblique; font-size: 20px;
+}
+
+/* visited link */
+a:visited {
+    color: black; text-decoration: none; font-family: "trebucbi"; font-size: 20px;
+}
+
+/* mouse over link */
+a:hover {
+    color: black; text-decoration: none; font-family: "trebucbi"; font-size: 20px;
+}
+
+/* selected link */
+a:active {
+    color: black; text-decoration: none; font-family: "trebucbi"; font-size: 20px;
+}
