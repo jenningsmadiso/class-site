@@ -1,0 +1,60 @@
+.vid {
+  display: inline-block;
+  padding: 0;
+  position: relative;
+  margin: 0;
+  left: -25%;
+  top:0;
+}
+.ten {
+  animation: move-in-steps 10.1s steps(10);
+  animation-iteration-count: 1;
+ /* animation-delay: .1s;*/
+}
+
+.twenty {
+  animation: move-in-steps 10.1s steps(10);
+  animation-iteration-count: 1;
+  animation-delay: 10.1s
+}
+
+.thirty {
+  animation: move-in-steps 10.1s steps(10);
+  animation-iteration-count: 1;
+  animation-delay: 20.2s
+}
+
+.forty {
+  animation: move-in-steps 10.1s steps(10);
+  animation-iteration-count: 1;
+  animation-delay: 30.3s
+}
+
+.fifty {
+  animation: move-in-steps 10.1s steps(10);
+  animation-iteration-count: 1;
+  animation-delay: 40.4s
+}
+
+.sixty {
+  animation: move-in-steps 10.1s steps(10);
+  animation-iteration-count: 1;
+  animation-delay: 50.5s
+}
+
+@keyframes move-in-steps {
+  0% {
+    left: 0%;
+    /*background: blue;*/
+  }
+ 100% {
+    left: 100%;
+    /*background: red;*/
+  }
+}
+
+body {
+  background-color: black;
+  overflow: hidden;
+  padding: 20px;
+}
